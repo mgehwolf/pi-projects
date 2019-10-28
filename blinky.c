@@ -8,14 +8,14 @@
 
 void setup() {
     wiringPiSetupGpio();
-    pinMode(Led1; OUTPUT);
-    pinMode(Led2; OUTPUT);
-    pinMode(Led3; OUTPUT);
-    pinMode(Led4; OUTPUT);
+    pinMode(Led1, OUTPUT);
+    pinMode(Led2, OUTPUT);
+    pinMode(Led3, OUTPUT);
+    pinMode(Led4, OUTPUT);
 }
 
 int main(){
-    for(){
+    for(int i=0; i < 5; i++){
         digitalWrite(LED1, LOW);
         digitalWrite(LED2, LOW);
         digitalWrite(LED3, LOW);
@@ -25,6 +25,6 @@ int main(){
         digitalWrite(LED2, HIGH);
         digitalWrite(LED3, HIGH);
         digitalWrite(LED4, HIGH);
-        
+        delay(500);
     }
 }
